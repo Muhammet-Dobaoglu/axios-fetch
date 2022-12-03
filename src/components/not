@@ -1,0 +1,13 @@
+
+    /*      axios("https://jsonplaceholder.typicode.com/users")
+        .then((res)=>{
+        setUsers(res.data);
+            axios(
+                `https://jsonplaceholder.typicode.com/posts?userId=${res.data[0].id}`
+            ).then((res)=>setPosts(res.data));
+             })
+            .catch((error)=>{
+                console.log("error",error)
+            })
+        .finally(()=>setloading(false))  */
+         //async tanımlamamnın nedeni event anahtar sözcüğü kullanabilmek
